@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("image1.jpg");
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  margin-top: 100px;
+  padding: 10px;
+  width: 500px;
+  height: 325px;
+  background-color: #566573;
+
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.container div h2 {
+  margin-top: 25px;
+  color: #eeeeee;
+}
+.score-home {
+  width: 150px;
+  height: 120px;
+  background-color: #080001;
+  color: #f94f6d;
+  font-size: 90px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  text-align: center;
+  line-height: 150px;
+  margin-top: 10px;
+}
+
+.score-guest {
+  width: 150px;
+  height: 120px;
+  background-color: black;
+  color: #f94f6d;
+  font-size: 90px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  text-align: center;
+  line-height: 150px;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 15px;
+  margin-right: 3px;
+  width: 45px;
+  height: 45px;
+  border-radius: 3px;
+  border: 3px solid #9aabd8;
+  background-color: #1b244a;
+  color: #9aabd8;
+  cursor: pointer;
+}
+
+.container div:nth-of-type(2) {
+  display: flex;
+  align-items: flex-end;
+}
+.reset-btn {
+  width: 100px;
+  height: 40px;
+}
